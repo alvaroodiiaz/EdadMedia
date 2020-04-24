@@ -10,7 +10,7 @@ import Operations.BattleHelper;
 
 class BattleHelperTest {
 	Humano h1 = new Humano("Alvaro", "Diaz", "Portador de Matadora", 100);
-	Orco o1 = new Orco("Grommash", "Hellscream", "Jefe del Clan Warsong", 100);
+	Orco o1 = new Orco("Thrall", "Go'el", "Miembro del Anillo de la Tierra.", 100);
 	@Test
 	void testDisminuirSaludH() {
 		BattleHelper.disminuirSaludH(h1, 20);
